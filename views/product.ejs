@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YCC2 : <%= titleshow %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  </style>
+  <%- include layout_product_page %>
+  <div class="  p-2 p-md-0 m-md-3 text-left back-btn">
+    <div class="col-md-0 p-lg-4 my-1 ml-5 ">
+      <a class="text-decoration-none back-btn-con" href="/"><b>
+          < Back</b></a>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 mt-2">
+    <div>
+      <img src="<%= imgshow %>" alt="<%= titleshow %>" class="product_img1">
+    </div>
+
+    <div class=" mr-md-3 1 px-1 md-5 px-md-5 text-left overflow-hidden">
+      <div class="mb-3 pb-3">
+        <h1 class="display-5"><b>Customize your <%= titleshow %></b></h1>
+        <p class="descrip-con"><%- descriptionshow %></p>
+        <h2 class="display-5 mb-3"><b>Storage</b></h2>
+        <% storageshow.forEach(function(show) { %>
+        <button type="button"
+          class="btn btn-outline-primary btn-lg btn-con text-left "><%= show.storages %></button><br>
+        <% }); %>
+        <br>
+        <h2 class="display-5"><b>Pricing</b></h2>
+        <h1 class="display-5 mt-3"><b><%= priceshow %> Baht</b></h1>
+        <a href="/confirm"><button type="radio" class="btn btn-primary btn-sm mt-3">Purchase</button></a>
+      </div>
+
+    </div>
+  </div>
+
+  <%- include footer %>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

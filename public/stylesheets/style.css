@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0px;
+  font-family: 'Roboto';
+}
+h1{
+  font-family: 'Roboto';
+}
+h2{
+  font-family: 'Roboto';
+}
+a{
+  font-family: 'Roboto';
+}
+h3{
+  font-family: 'Roboto';
+}
+.container {
+  max-width: 1922px;
+}
+p{
+  font-family: 'Roboto';
+}
+.new{
+  text-align: center;
+  font: Light 24px/28px Roboto;
+  letter-spacing: 0;
+  color: rgba(255, 149, 0, 1);
+  opacity: 1;
+}
+.mac-head{
+  text-align: center;
+  font: bold 84px/99px Roboto;
+  letter-spacing: 0;
+  color: rgba(51, 51, 51, 1);
+  opacity: 1;
+}
+.img-mac1{
+  background: transparent url('../images/macbook-clipart-png-macbook-pro-png-transparent-free-download-for-macbook-pro-png-1440_695.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 844px;
+  height: 407px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-head{
+  text-align: center;
+  letter-spacing: 0;
+  color: rgba(51, 51, 51, 1);
+  opacity: 1;
+}
+.text-head2{
+  text-align: center;
+  font: Regular 36px/42px Roboto;
+  letter-spacing: 0;
+  color: rgba(117, 117, 117, 1);
+  opacity: 1;
+}
+.bg1{
+  background-image: url('../images/Image1_2.png');
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  height: 520px;
+  background-repeat: no-repeat;
+
+}
+
+.bg2{
+  background: url('../images/Image 2.png') bottom no-repeat;
+  background-size: 570px;
+  object-fit: cover;
+  position: relative;
+  height: 520px;
+
+}
+.bg3{
+  background: url('../images/img3.png') bottom no-repeat;
+  background-size: 600px;
+  /*background-size: cover;
+  object-fit: cover;*/
+  position: relative;
+  height: 520px;
+
+}
+.bg4{
+  background: url('../images/Image4.png') bottom no-repeat;
+  background-size: 530px;
+  /*background-size: contain;
+  object-fit: cover;*/
+  position: relative;
+  height: 520px;
+
+}
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.foot-text {
+  text-align: left;
+  font-size: 9px;
+  font-weight: normal;
+  font-family: Roboto;
+  color: #757575;
+  opacity: 1;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.product_img1{
+  width: 700px;
+  margin-left: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 160px;
+}
+.back-btn{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+}
+.back-btn-con{
+  margin-left: 60px;
+}
+.descrip-con{
+  line-height: 2.4;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.btn-con{
+  width: 60%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+.confirm-control{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.site-header {
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(206, 206, 210, 1);
+  opacity: 1;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: rgba(51, 51, 51, 1);;
+  transition: ease-in-out color .15s;
+  font: Light 28px/33px Roboto;
+  letter-spacing: 0;
+  opacity: 1;
+}
+.site-header a:hover {
+  color: rgba(206, 206, 210, 1);
+  text-decoration: none;
+}
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }

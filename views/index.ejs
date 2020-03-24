@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YCC2 : <%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  </style>
+  <%- include layout %>
+  <div class="position-relative overflow-hidden p-1 p-md-0 m-md-0 text-center bg-light" id="macbook">
+    <div class="col-md-5 p-lg-4 mx-auto my-2">
+      <p class="new">New</p>
+      <h2 class="display-4 mac-head"><b>MacBook Pro</b></h2>
+      <p class="text-muted">Prolong in the dark.</p>
+      <a class="text-decoration-none" href="macbook-pro">Learn more</a>
+    </div>
+    <div class="img-mac1">
+      <a href="macbook-pro"><img
+          src="images/macbook-clipart-png-macbook-pro-png-transparent-free-download-for-macbook-pro-png-1440_695.png"
+          alt="MacBook Pro"></a>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <a href="surface-pro-x">
+      <div class="bg1 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center" id="surface">
+        <div class="my-3 py-3 centered">
+          <h2 class="display-4 text-head"><b>Surface Pro X</b></h2>
+          <p class="text-head2">A new generation of Surface.</p>
+        </div>
+      </div>
+    </a>
+    <a href="swift-7">
+      <div class="bg-light bg2 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center" id="swift">
+        <div class="my-3 py-3 centered">
+          <h2 class="display-4 text-head"><b>Swift 7</b></h2>
+          <p class="text-head2">Light and Powerful.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <a href="xps">
+      <div class="bg-light bg3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center" id="xps">
+        <div class="my-3 py-3 centered">
+          <h2 class="display-4 text-head"><b>XPS</b></h2>
+          <p class="text-head2">World of Edge to Edge Display.</p>
+        </div>
+      </div>
+    </a>
+    <a href="zenbook-pro">
+      <div class="bg-light bg4 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center" id="zenbook">
+        <div class="my-3 py-3 centered">
+          <h2 class="display-4 text-head"><b>ZenBook Pro</b></h2>
+          <p class="text-head2">Extend the Imagination.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <%- include footer %>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
